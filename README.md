@@ -23,6 +23,7 @@ SIADS-MILESTONE-1
     │       │   aic_data.csv
     │       │   combined_data.csv
     │       │   met_data.csv
+    │      
     ├───small_data
     │   ├───raw
     │   │   │   aic_raw.csv
