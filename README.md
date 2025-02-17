@@ -1,12 +1,29 @@
 # SIADS-Milestone-1
 
 ## This repository contains the data, Jupyter notebooks, and visualizations we created over the course of this project.
+* Note: the `small_data` folder is only present to allow people to open and view versions of our csv files that are under 10 MB.
 
 ## Table of Contents:
 ```
 SIADS-MILESTONE-1
 └───src
     ├───data
+    │   ├───raw
+    │   │   │   aic_raw.csv
+    │   │   │   METsample.csv
+    │   │   
+    │   ├───interim
+    │   │   │   CleanMETData.csv
+    │   │   │   countries.csv
+    │   │   │   CountriesCSV.csv
+    │   │   │   del_vals.csv
+    │   │   │   noncountry_geopy.csv
+    │   │   
+    │   └───processed
+    │       │   aic_data.csv
+    │       │   combined_data.csv
+    │       │   met_data.csv
+    ├───small_data
     │   ├───raw
     │   │   │   aic_raw.csv
     │   │   │   METsample.csv
@@ -54,7 +71,4 @@ SIADS-MILESTONE-1
                 │   country_map_vis_aic.png
                 │   country_map_vis_combo.png
                 │   country_map_vis_met.png
-
-
-
 ```
